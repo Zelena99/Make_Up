@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+h1,h2,h3,h4,h5, .letter{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    left: 2%;
+    padding: 3%;
+    z-index: 1;
+
+}
+
+.title:hover{
+    transform: scale(1.1);
+}
+
+
+.bg-main{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./media/fondo-main.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+
+}
+
+.subtitle{
+    position: absolute;
+    top: 43%;
+    left: 2%;
+    font-style: italic;
+
+}
+
+.menulist:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bg_cover{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(white 0%, transparent 30%, white 100%),url("./media/close-up-red-lipsticks-arrangement_23-2148978125.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subt:hover{
+    transform: scale(1.3);
+} 
+
+.abajo:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    font-style: italic;
+
+}
+
+
+
